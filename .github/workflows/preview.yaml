@@ -7,10 +7,6 @@ on:
     branches-ignore:
       - main
 jobs:
-  Build-Assets:
-    runs-on: ubuntu-latest
-    steps:
-
   Deploy-Preview:
     runs-on: ubuntu-latest
     steps:
